@@ -9,7 +9,6 @@ segundo_final = segundo_inicial + viaje_en_segundo;
 hora_de_llegada = segundo_final // 3600;
 minuto_de_llegada = (segundo_final % 3600) // 60;
 segundo_de_llegada = (segundo_final % 3600) % 60;
-print("La ho")
 print("La hora de llegada es :",hora_de_llegada,":",minuto_de_llegada,":",segundo_de_llegada)
 
 
